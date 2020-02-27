@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head> </head>
+<body>
+<script>
+function showMessage(from, text) {
+if (text == undefined) {
+text = 'текст не передан';
+}
+alert(from + ": " + text);
+}
+showMessage("Маша", "Привет!"); // Маша: Привет!
+showMessage("Маша"); // Маша: текст не передан
+</script>
+</body>
+</html>
