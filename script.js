@@ -1,0 +1,11 @@
+<!DOCTYPE html> 
+<head> 
+<meta charset="windows-1251" /> 
+<title>JavaScript Пример 1</title> 
+<script src="script.js"></script> 
+</head> 
+<body> 
+    alert('Привет') 
+    alert('Мир')
+</body> 
+</html>
