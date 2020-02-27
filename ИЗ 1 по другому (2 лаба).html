@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+let year = prompt ('Напишите год', '');
+let messege = (year <= 2099  && year >= 2000) ? '21 век': 
+(year < 1999 && year >= 1900) ? '20 век':
+(year < 1899 && year >= 1800) ? '19 век':
+(year < 1799 && year >= 1700) ? '18 век':
+(year <= 1699 && year >= 1600) ? '17 век': 'век науке не известен';
+alert(messege);
+{
+document.write( year );
+}
+</script>
+</body>
+</html>
