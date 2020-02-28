@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="условие">Нажмите на кнопку ГСЧ, чтобы сгенерировать число</p>
+<p id="текст"></p>
+<button onclick=Generate()>ГСЧ</button>
+<button onclick=Text()>Нажмите для ввода</button>
+<script>
+function Generate(){
+document.getElementById("условие").innerHTML = Math.floor( Math.random()* 91)+10;
+document.getElementById("текст").innerHTML = "Введите текст длинной в сгенерированное количество слов."
+}
+function Text(){
+var line = prompt("Введите текст:", "");
+alert(line);
+var symbol = line.length; 
+alert(symbol);
+var text2 = prompt("Введите текств 3 раза меньше, чем предыдущее сгенирированное число:", "");
+var number=line.indexOf(text2) ;
+alert (number);
+}
+</script>
+</body>
+</html>
